@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (4.7.2)
+  - HanekeSwift (1.1)
+  - OneSignal (2.8.5)
+  - PromiseKit (6.2.7):
+    - PromiseKit/CorePromise (= 6.2.7)
+    - PromiseKit/Foundation (= 6.2.7)
+    - PromiseKit/UIKit (= 6.2.7)
+  - PromiseKit/Alamofire (6.2.7):
+    - Alamofire (~> 4.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/CorePromise (6.2.7)
+  - PromiseKit/Foundation (6.2.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.2.7):
+    - PromiseKit/CorePromise
+  - RevealingSplashView (0.5.0)
+  - SwifterSwift (4.3.0):
+    - SwifterSwift/AppKit (= 4.3.0)
+    - SwifterSwift/CoreGraphics (= 4.3.0)
+    - SwifterSwift/CoreLocation (= 4.3.0)
+    - SwifterSwift/Foundation (= 4.3.0)
+    - SwifterSwift/MapKit (= 4.3.0)
+    - SwifterSwift/SwiftStdlib (= 4.3.0)
+    - SwifterSwift/UIKit (= 4.3.0)
+  - SwifterSwift/AppKit (4.3.0)
+  - SwifterSwift/CoreGraphics (4.3.0)
+  - SwifterSwift/CoreLocation (4.3.0)
+  - SwifterSwift/Foundation (4.3.0)
+  - SwifterSwift/MapKit (4.3.0)
+  - SwifterSwift/SwiftStdlib (4.3.0)
+  - SwifterSwift/UIKit (4.3.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`)
+  - OneSignal
+  - PromiseKit
+  - PromiseKit/Alamofire
+  - RevealingSplashView
+  - SwifterSwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - OneSignal
+    - PromiseKit
+    - RevealingSplashView
+    - SwifterSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: a6dfc25c343d2fcdeefd8cbf251a3d7b755adc3a
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  HanekeSwift: cb662a1f22b10ff3ff1d7b5030ae451da5d93831
+  OneSignal: 42dae269c7eca517aee34963820e1eb922390031
+  PromiseKit: 12b9d87748b170714247d8b2677146ca57e488f2
+  RevealingSplashView: 0794eecad3a8983ac11a1fe474e9a9b51b926780
+  SwifterSwift: f3fce2b9fc5b9d8fda6eec33825e5243c60aebba
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 203d110728e7a81b1d3468567f59e9fa66b4d55d
+
+COCOAPODS: 1.5.2
